@@ -1,5 +1,7 @@
 FROM debian:jessie
 
+EXPOSE 8000/tcp
+
 WORKDIR /tmp
 
 RUN apt-get -y update
